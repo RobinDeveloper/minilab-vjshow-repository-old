@@ -1,0 +1,34 @@
+{
+    "name": "MidiInput",
+    "maps": [
+        {
+            "name": "EmmisionWallControls",
+            "id": "9915411f-cba2-4302-bd58-48d227816904",
+            "actions": [
+                {
+                    "name": "Intensity",
+                    "type": "Value",
+                    "id": "f4f2576c-108f-4600-89b5-e9c1caabc3a8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c9f8ae26-7eaa-47f4-9718-3416d85e8378",
+                    "path": "<MidiDevice>/control072",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Intensity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
